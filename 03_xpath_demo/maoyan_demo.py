@@ -6,12 +6,12 @@
 # @File : maoyan_demo.py
 # @Software: PyCharm
 
+# 抓取猫眼电影TOP100榜
+
 import csv
 import json
 import re
-# 抓取猫眼电影TOP100榜
 from multiprocessing import Pool
-
 import requests
 from requests.exceptions import RequestException
 

@@ -6,6 +6,8 @@
 # @File : fanyi_qq_demo.py
 # @Software: PyCharm
 
+# 腾讯翻译
+
 import requests
 import json
 
