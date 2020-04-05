@@ -9,7 +9,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-from pyecharts import Bar
+from pyecharts.charts import Bar
 
 ALL_DATA = list()
 
