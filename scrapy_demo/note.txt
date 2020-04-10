@@ -1,0 +1,53 @@
+scrapy运行流程
+
+1.首先爬虫主代码spiders开始运行 发送一个requests请求给爬虫引擎engine
+2.当引擎engine收到请求requests，会将其发送给调度器scheduler
+3.调度器scheduler处理之后，再将请求requests返回给引擎engine
+4.引擎engine收到返回的requests请求后，再将其发送给下载器downloader，
+5.下载器downloader从网络获取到数据后，返回一个response响应对象给引擎engine
+6.引擎engine收到response响应后，再将其返回给spider
+7.此时spider再返回一个处理过的模型items/requests对象给引擎engine
+8.引擎收到请求requests和items后，将items模型存入管道pipelines中，requests对象则返回给调度器scheduler
+
+
+
+
+
+
+1.安装scrapy框架
+pip install scrapy
+
+2.win环境下 还需安装pypiwin32
+如果不安装  运行scraapy项目时就会报错，安装方式 pip install pypiwin32
+
+3.ubuntu环境下 还需安装一些第三方库
+sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev libffi-dev libssl-dev
+
+创建爬虫
+1.创建项目
+在指定项目目录下，输入 scrapy startproject [爬虫项目名]
+2.创建爬虫，进入项目所在的路径，输入 scrapy genspider [爬虫名字] [爬虫的域名]
+注意 爬虫名字不能和项目名一致
+
+项目目录结构
+1.items.py 用来存放爬虫爬取下来数据的模型
+2.middlewares.py 用来存放各种中间件的文件
+3.pipelines.py 用来将items的模型存储到本地磁盘中
+4.settings.py 本爬虫的一些配置信息  例如 请求头 多久发送一次请求 ip代理池等
+5.scrapy.cfg  项目的配置文件
+6.spiders包  以后所有的爬虫都是存放到这个里面
+
+
+1.response是一个'scrapy.http.response.html.HtmlResponse'对象，可以执行xpath,css语法来提取数据
+2.提取出来的数据，是一个'Selector'或者是一个'SelectorList'对象，如果想要获取其中的字符串，那么应该执行'getall'或者'get'方法
+3.getall方法，获取'Selector'中的所有文本，返回的是一个列表 等价于extract方法
+4.get方法，获取的是'Selector'中的第一个文本，返回的是一个str类型
+5.如果数据解析回来，要传给pipelines处理，那么可以使用'yield'来返回；如果不使用yield，则要创建一个列表存储数据，最后返回这个列表
+6.item：建议在'items.py'中定义好模型，以后就不要使用字典
+7.pipelines：这个是专门用来存储数据的，其中有三个方法常用：
+　　　　'open_spider(self, spider)'：当爬虫打开时执行
+　　　　'process_item(self, item, spider)'：当爬虫有item传过来的时候会被调用
+　　　　'close_spider(self, spider)'：当爬虫关闭的时候调用
+　　　　要激活pipelines，在'settings.py'  68行
+
+
