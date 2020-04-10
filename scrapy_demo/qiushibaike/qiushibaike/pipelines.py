@@ -15,7 +15,7 @@ class QiushibaikePipeline(object):
         print("爬虫开始。。。")
 
     def process_item(self, item, spider):
-        item_json = json.dumps(item,ensure_ascii=False)
+        item_json = json.dumps(dict(item),ensure_ascii=False)
         self.fp.write(item_json+'\n')
         return item
 

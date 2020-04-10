@@ -37,7 +37,7 @@ sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev libffi-dev l
 5.scrapy.cfg  项目的配置文件
 6.spiders包  以后所有的爬虫都是存放到这个里面
 
-
+# 糗事百科笔记
 1.response是一个'scrapy.http.response.html.HtmlResponse'对象，可以执行xpath,css语法来提取数据
 2.提取出来的数据，是一个'Selector'或者是一个'SelectorList'对象，如果想要获取其中的字符串，那么应该执行'getall'或者'get'方法
 3.getall方法，获取'Selector'中的所有文本，返回的是一个列表 等价于extract方法

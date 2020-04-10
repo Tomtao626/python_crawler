@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from scrapy_demo.qiushibaike.qiushibaike.items import QiushibaikeItem
 from scrapy.http.response.html import HtmlResponse
 from scrapy.selector.unified import SelectorList
 
@@ -16,8 +17,10 @@ class QsbkSpider(scrapy.Spider):
             author = div.xpath('.//h2/text()').get().strip()
             content = div.xpath('.//div[@class="content"]//text()').getall()
             content = ",".join(content).strip()
-            duanzi = {
-                'author': author,
-                'content': content
-            }
-            yield duanzi
+            # duanzi = {
+            #     'author': author,
+            #     'content': content
+            # }
+            # yield duanzi
+            item = QiushibaikeItem(author=author,content=content)
+            yield item
