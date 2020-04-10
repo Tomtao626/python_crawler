@@ -23,13 +23,13 @@ pip install scrapy
 3.ubuntu环境下 还需安装一些第三方库
 sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev libffi-dev libssl-dev
 
-创建爬虫
+#创建爬虫
 1.创建项目
 在指定项目目录下，输入 scrapy startproject [爬虫项目名]
 2.创建爬虫，进入项目所在的路径，输入 scrapy genspider [爬虫名字] [爬虫的域名]
 注意 爬虫名字不能和项目名一致
 
-项目目录结构
+#项目目录结构
 1.items.py 用来存放爬虫爬取下来数据的模型
 2.middlewares.py 用来存放各种中间件的文件
 3.pipelines.py 用来将items的模型存储到本地磁盘中
@@ -48,6 +48,50 @@ sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev libffi-dev l
 　　　　'open_spider(self, spider)'：当爬虫打开时执行
 　　　　'process_item(self, item, spider)'：当爬虫有item传过来的时候会被调用
 　　　　'close_spider(self, spider)'：当爬虫关闭的时候调用
-　　　　要激活pipelines，在'settings.py'  68行
+　　　　要激活pipelines，在'settings.py'  68行 代码示例如下:
+        ITEM_PIPELINES = {
+                            'qiushibaike.pipelines.QiushibaikePipeline': 300,
+                        }
 
+JsonItemExporter和JsonLinesItwemExporter:
+保存json数据时，可以使用这两个类，让操作更简单
 
+1.'JsonItemExporter' 每次把数据添加到内存中，最后统一写入磁盘中，好处是存储的数据是一个满足json规则的数据；坏处是若数据量比较大，就比较耗内存
+示例代码如下：
+from scrapy.exporters import JsonItemExporter
+class QiushibaikePipeline(object):
+    def __init__(self):
+        self.fp = open("duanzi.json", 'wb')
+        self.exporter = JsonItemExporter(self.fp, ensure_ascii=False,encoding='utf-8')
+        self.exporter.start_exporting()
+
+    def open_spider(self, spider):
+        print("爬虫开始。。。")
+
+    def process_item(self, item, spider):
+        self.exporter.export_item(item)
+        return item
+
+    def close_spider(self, spider):
+        self.exporter.finish_exporting()
+        self.fp.close()
+        print("爬虫结束。。。")
+
+2.'JsonLinesItemExporter'  每次调用export_item的时候就把这个个item存储到磁盘中；坏处是没一个字典时一行，整个文件不是一个满足json格式的文件。好处是每次处理数据时直接存储到了硬盘中，不会耗内存，数据比较安全。
+示例代码如下：
+from scrapy.exporters import JsonLinesItemExporter
+class QiushibaikePipeline(object):
+    def __init__(self):
+        self.fp = open("duanzi.json", 'wb')
+        self.exporter = JsonLinesItemExporter(self.fp, ensure_ascii=False,encoding='utf-8')
+
+    def open_spider(self, spider):
+        print("爬虫开始。。。")
+
+    def process_item(self, item, spider):
+        self.exporter.export_item(item)
+        return item
+
+    def close_spider(self, spider):
+        self.fp.close()
+        print("爬虫结束。。。")
