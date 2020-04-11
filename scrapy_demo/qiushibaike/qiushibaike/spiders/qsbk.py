@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from scrapy_demo.qiushibaike.qiushibaike.items import QiushibaikeItem
+from qiushibaike.items import QiushibaikeItem
 from scrapy.http.response.html import HtmlResponse
 from scrapy.selector.unified import SelectorList
 

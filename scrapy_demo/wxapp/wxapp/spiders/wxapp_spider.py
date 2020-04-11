@@ -2,7 +2,7 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-from scrapy_demo.wxapp.wxapp.items import WxappItem
+from wxapp.items import WxappItem
 
 class WxappSpiderSpider(CrawlSpider):
     name = 'wxapp_spider'

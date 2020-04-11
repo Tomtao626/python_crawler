@@ -101,3 +101,13 @@ class QiushibaikePipeline(object):
 1.allow设置规则的方法：要能够限制再我们想要的url上面，不要跟其他的url产生相同的正则表达式即可
 2.什么情况使用follow：如果在爬取页面的时候，需要将满足当前条件的url再进行跟选，那么就设置为True，否则设置为False
 3.什么情况下指定callback：如果这个url对应的页面，只是为了获取更多的url，并不需要里面的数据，可以不指定callback；如果想要获取对应url里面的数据，那么就需要指定一个callback。
+
+
+# Scrapy Shell
+1.可以方便做一些数据提取的测试代码
+2.若想要执行scrapy命令，需进入scrapy项目所在的环境中
+3.如果想要读取某个项目的配置信息，需进入这个给项目目录中，再执行'scrapy shell命令'
+
+# 模拟登录人人网
+1.想要发送post请求，推荐使用scrapy.FormRequest犯法，可以方便的指定表单数据
+2.若需要再爬虫一开始就发送post请求，就应重写start_requests方法，在这个方法中发送post请求
