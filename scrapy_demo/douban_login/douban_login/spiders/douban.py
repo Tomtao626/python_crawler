@@ -17,8 +17,8 @@ class DoubanSpider(scrapy.Spider):
         formdata = {
             'source':'None',
             'redir':'https://www.douban.com/',
-            'form_email': '751825253@qq.com',
-            'form_password': 'tp751825253',
+            'form_email': 'xxxxxxx@xx.com',
+            'form_password': 'xxxxxx',
             'remember': 'on',
             'login':'登录'
         }
@@ -69,8 +69,8 @@ class DoubanSpider(scrapy.Spider):
             data = fp.read()
             pic = b64encode(data)
             formdata['pic'] = pic
-
-        appcode = '6a910799136841a389321d6023295ac5'
+        # 从阿里云获取appcode
+        appcode = 'xxxxxxxxxxxxxxxxxxxxxxx'
         headers = {
             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
             'Authorization': 'APPCODE ' + appcode
