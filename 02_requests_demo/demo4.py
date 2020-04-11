@@ -11,8 +11,8 @@ import requests
 # response = requests.get("https://www.baidu.com/")
 # print(response.cookies)
 data = {
-        'email': "18372620761",
-        'password': "Wangxi4228tp"
+        'email': "xxxxxxxxxxx",
+        'password': "xxxxxx"
     }
 login_url = "http://www.renren.com/PLogin.do"
 headers = {
