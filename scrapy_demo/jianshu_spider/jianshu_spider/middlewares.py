@@ -6,10 +6,9 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-import random
-import base64
 
-class UseragentDemoSpiderMiddleware(object):
+
+class JianshuSpiderSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -57,7 +56,7 @@ class UseragentDemoSpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class UseragentDemoDownloaderMiddleware(object):
+class JianshuSpiderDownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
@@ -104,52 +103,29 @@ class UseragentDemoDownloaderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class UserAgentDownloadMiddleware(object):
-    USER_AGENTS = [
-        'Mozilla/5.0 (compatible; Baiduspider/2.0;+http://www.baidu.com/search/spider.html)',
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
-        'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50',
-        'Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1',
-        'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; SE 2.X MetaSr 1.0; SE 2.X MetaSr 1.0; .NET CLR 2.0.50727; SE 2.X MetaSr 1.0)',
-        'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; 360SE)'
-    ]
+from selenium import webdriver
+import time
+from scrapy.http.response.html import HtmlResponse
+
+
+class SeleniumDownloadMiddleware(object):
+    def __init__(self):
+        self.driver = webdriver.Chrome(executable_path=r"d:\chromedriver\chromedriver.exe")
 
     def process_request(self, request, spider):
-        user_agent = random.choice(self.USER_AGENTS)
-        request.headers['User-Agent'] = user_agent
-
-
-# class IPProxyDownloadMiddleware(object):
-#     '''
-#     快代理http开放代理
-#     '''
-#     PROXIES = [
-#         "223.199.30.89:9999",
-#         "125.108.106.122:9000",
-#         "129.204.209.46:8118",
-#         "113.195.22.211:9999",
-#         "101.200.36.219:80",
-#         "1.197.16.52:9999",
-#         "223.242.225.6:9999",
-#         "115.221.246.213:9999",
-#         "113.124.93.151:9999",
-#         "121.226.188.100:9999",
-#         "125.108.79.155:9000",
-#     ]
-# 
-#     def process_request(self, request, spider):
-#         proxy = random.choice(self.PROXIES)
-#         request.meta['proxy'] = 'http://'+proxy
-
-
-class IPProxyDownloadMiddleware(object):
-    '''
-    快代理独享代理
-    '''
-    def process_request(self, request, spider):
-        proxy = "121.199.6.124:16816"
-        user_password = "123456789:test123"
-        request.meta['proxy'] = proxy
-        # bytes数据类型
-        b64_user_password = base64.b64encode(user_password.encode('utf-8'))
-        request.headers['Proxy-Authorization'] = 'Basic ' + b64_user_password.decode('utf-8')
+        self.driver.get(request.url)
+        time.sleep(1)
+        try:
+            # 多次点击
+            while True:
+                showMore = self.driver.page_source.find_element_by_xpath("//div[@class='H7E3vT'/span]")
+                showMore.click()
+                time.sleep(0.3)
+                if not showMore:
+                    break
+        except:
+            pass
+        source = self.driver.page_source
+        # 将网页源代码封装成一个response对象
+        response = HtmlResponse(url=self.driver.current_url, body=source, request=request, encoding='utf-8')
+        return response

@@ -2,23 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ae0005f-d059-4842-8bf6-31b6daa73011" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bmw.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/os_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/spiders/bmw5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../douban_login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../douban_login/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/中控方向盘/15f712cece8cfe28c6f419feb664e259cd9c77eb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/中控方向盘/335ea3406835e8e053d5b2f94b9c2ad1deca2237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/中控方向盘/518ffb39d1fd86377661f2fbf185b7c667b013e6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/中控方向盘/78fa844359a8d9b3cfe0e385f509c08f25f8da1a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/中控方向盘/8d2e10cde7874a11910858cbef8c44b97cb45177.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/中控方向盘/bc38df75ba54b81412f45074eff957c8cd27a723.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/中控方向盘/cf2544395bd6fda8b32d684687e0cc9fee4378de.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/中控方向盘/eed0261406b3a0c229d8dd33648f8105bed735f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/其它细节/3c37a7e80bd591454bb58e7dd8f5f9b21a8b83d2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/其它细节/46f4cf1a84040d7d21909213a19b5ace9251f3ba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/其它细节/64804233ea817b0683b7779b3f93a3ca1e071b32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/其它细节/66879ae0795c5d168afea5c80f23f75a107500ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/其它细节/92806569398c66d156867c7e9d5ee9e11ced01b6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/其它细节/9ef260df2278c066b27a891c6f4594503b8996e7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/其它细节/bb335be0b95fb2eb4a367bbe64d891f32dce03f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/其它细节/c3cd7f0da29656813cd1c857216e565fbfb43fa2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/改装/01b3ecb5062b77c84af6c32e209756912b62eede.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/改装/1df539c99db60b888b08ccd35f65471791a3fda8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/改装/6b5eaed381713386d12e55765e2998fd8f03920d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/改装/89785b540897a666431743888bfb09dee0cf74d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/改装/9b2bcb597babd2f9b823102195046acf58955285.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/改装/d6ab8180eeb8919a0b309a71d491e8679b214cad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/改装/ed788a16f4e374d553e00816755a2f3d35214ed2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/改装/f174b04422b5a8e71cf2d9ce9eaf063dfa07efa7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车厢座椅/0222c87be952e2ce0b9758f877aeae813f20bd18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车厢座椅/353ad67a57d5382b2993cbd73b547e6dc917d06e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车厢座椅/6c2eff7cb2f29b0f3799593bba26a2caa5985355.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车厢座椅/741686e9e44c3a364a9a601a60826a20a94f1c10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车厢座椅/7d01dd4cffcdaff22cfc624a93c7e3fe2e21c1f9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车厢座椅/c567354ba6cd9c17f258d3930c7e1ab9a2616e40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车厢座椅/c6869a9e2e80de16d9ed2cbf5a55f2dd3aee5cc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车厢座椅/dcf465d03ee1c8decc76d79bff1996044f03c03c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车身外观/095c1a2728faea4cfde64fd371f30f3a996d8b9f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车身外观/156505d083bcfc3950a61249287292137dc2f46d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车身外观/2febdcf1b45b1d7fbab81a32576cd998c7981586.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车身外观/6774dc609aadc18e1b9df9f7ac1f0f43ed936173.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车身外观/a3a6f34ae06852a87507c59abb2753f5ca10fa88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车身外观/c9db9851899b624dc702070f8f18c0eb3f9acd97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车身外观/fbd66d7f7ae9a93dfbdd5014159c302a844deae8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/车身外观/fc22490f8a234773841b1e4c7e0835925efb4bac.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586595485422</updated>
-      <workItem from="1586595486753" duration="3509000" />
+      <workItem from="1586595486753" duration="4369000" />
     </task>
     <servers />
   </component>
@@ -152,22 +176,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="857" height="376" key="GridCell.Tab.0.bottom" timestamp="1586598247209">
+    <state width="857" height="423" key="GridCell.Tab.0.bottom" timestamp="1586606370072">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="857" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586598247209" />
-    <state width="857" height="376" key="GridCell.Tab.0.center" timestamp="1586598247208">
+    <state width="857" height="423" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586606370072" />
+    <state width="857" height="423" key="GridCell.Tab.0.center" timestamp="1586606370071">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="857" height="376" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586598247208" />
-    <state width="857" height="376" key="GridCell.Tab.0.left" timestamp="1586598247207">
+    <state width="857" height="423" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586606370071" />
+    <state width="857" height="423" key="GridCell.Tab.0.left" timestamp="1586606370070">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="857" height="376" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586598247207" />
-    <state width="857" height="376" key="GridCell.Tab.0.right" timestamp="1586598247208">
+    <state width="857" height="423" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586606370070" />
+    <state width="857" height="423" key="GridCell.Tab.0.right" timestamp="1586606370071">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="857" height="376" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586598247208" />
+    <state width="857" height="423" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586606370071" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bmw$start.coverage" NAME="start Coverage Results" MODIFIED="1586599152668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
