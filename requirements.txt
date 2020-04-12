@@ -147,7 +147,7 @@ virtualenvwrapper-win==1.2.5
 w3lib==1.20.0
 webencodings==0.5.1
 websockets==8.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 Whoosh==2.7.4
 win32-setctime==1.0.1
 WTForms==2.1
