@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f571f18-890e-4e81-aeb8-4de7ef75fbbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1apvDy62ZcD7VciyKH8FjhAGxeM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f571f18-890e-4e81-aeb8-4de7ef75fbbe" name="Default Changelist" comment="" />
+      <created>1587445233951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587445233951</updated>
+      <workItem from="1587445236104" duration="465000" />
+      <workItem from="1587449881112" duration="2899000" />
+      <workItem from="1587460992503" duration="907000" />
+      <workItem from="1587518959522" duration="284000" />
+      <workItem from="1587542220188" duration="3053000" />
+      <workItem from="1587612908930" duration="596000" />
+      <workItem from="1587631996623" duration="798000" />
+      <workItem from="1587649558252" duration="598000" />
+      <workItem from="1587698086779" duration="1927000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="128" y="226" key="#SQL_Dialects" timestamp="1587542450007">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="128" y="226" key="#SQL_Dialects/0.23.1440.816@0.23.1440.816" timestamp="1587542450007" />
+    <state x="495" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587632105742">
+      <screen x="47" y="23" width="1393" height="877" />
+    </state>
+    <state x="495" y="227" key="#com.intellij.fileTypes.FileTypeChooser/47.23.1393.877@47.23.1393.877" timestamp="1587632105742" />
+    <state x="229" y="70" key="SettingsEditor" timestamp="1587453004927">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="229" y="70" key="SettingsEditor/0.23.1440.817@0.23.1440.817" timestamp="1587445445167" />
+    <state x="229" y="70" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1587453004927" />
+    <state x="229" y="70" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1587450023349" />
+    <state x="450" y="168" width="586" height="518" key="find.popup" timestamp="1587698157938">
+      <screen x="36" y="23" width="1404" height="877" />
+    </state>
+    <state x="450" y="168" width="586" height="518" key="find.popup/36.23.1404.877@36.23.1404.877" timestamp="1587698157938" />
+  </component>
+</project>
