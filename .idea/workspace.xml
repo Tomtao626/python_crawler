@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f571f18-890e-4e81-aeb8-4de7ef75fbbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0f571f18-890e-4e81-aeb8-4de7ef75fbbe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +41,7 @@
       <workItem from="1587631996623" duration="798000" />
       <workItem from="1587649558252" duration="598000" />
       <workItem from="1587698086779" duration="1927000" />
+      <workItem from="1587725967866" duration="289000" />
     </task>
     <servers />
   </component>
