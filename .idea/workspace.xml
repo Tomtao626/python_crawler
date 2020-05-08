@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f571f18-890e-4e81-aeb8-4de7ef75fbbe" name="Default Changelist" comment="" />
+    <list default="true" id="0f571f18-890e-4e81-aeb8-4de7ef75fbbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +51,11 @@
       <workItem from="1587631996623" duration="798000" />
       <workItem from="1587649558252" duration="598000" />
       <workItem from="1587698086779" duration="1927000" />
-      <workItem from="1587725967866" duration="289000" />
+      <workItem from="1587725967866" duration="1735000" />
+      <workItem from="1587873527675" duration="222000" />
+      <workItem from="1587873820007" duration="805000" />
+      <workItem from="1587951092306" duration="453000" />
+      <workItem from="1588037570027" duration="1335000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,6 @@
 # excel取数据
 
 
-
 import xlrd
 
 data = xlrd.open_workbook('acbm_apply.xlsx')

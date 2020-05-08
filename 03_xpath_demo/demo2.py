@@ -8,7 +8,6 @@
 
 from lxml import etree
 
-
 parser = etree.HTMLParser(encoding='utf-8')
 html = etree.parse("tencent.html", parser=parser)
 
