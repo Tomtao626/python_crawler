@@ -3,7 +3,7 @@
 # @Time : 2020/3/7 12:58
 # @Author : Tom_tao
 # @Site : 
-# @File : demo1.py
+# @File : interval_task.py
 # @Software: PyCharm
 
 

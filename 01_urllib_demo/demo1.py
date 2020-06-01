@@ -3,7 +3,7 @@
 # @Time : 2020/2/28 0:39
 # @Author : Tom_tao
 # @Site : 
-# @File : demo1.py
+# @File : interval_task.py
 # @Software: PyCharm
 
 from urllib import request

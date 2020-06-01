@@ -3,7 +3,7 @@
 # @Time : 2020/4/10 15:47
 # @Author : Tom_tao
 # @Site : 
-# @File : demo1.py
+# @File : interval_task.py
 # @Software: PyCharm
 
 import pytesseract

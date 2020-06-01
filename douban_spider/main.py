@@ -3,7 +3,7 @@
 # @Time : 2020/3/4 23:32
 # @Author : Tom_tao
 # @Site : 
-# @File : demo1.py
+# @File : interval_task.py
 # @Software: PyCharm
 
 # 豆瓣电影爬虫
