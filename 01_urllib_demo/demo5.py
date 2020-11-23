@@ -17,7 +17,7 @@ header = {
 req = request.Request(url=dapeng_url, headers=header)
 resp = request.urlopen(req)
 # print(resp.read().decode('utf-8'))
-with open('renren.html', 'w',encoding='utf-8') as fp:
+with open('eeee.html', 'w',encoding='utf-8') as fp:
     # write()函数必须写入一个str类型的数据
     # resp.read()读出来的是一个bytes类型的数据
     # bytes -> decode -> str
