@@ -1,5 +1,8 @@
 ##概述
-redis是一种支持分布式的nosql数据库,他的数据是保存在内存中，同时redis可以定时把内存数据同步到磁盘，即可以将数据持久化，并且他比memcached支持更多的数据结构(string,list列表[队列和栈],set[集合],sorted set[有序集合],hash(hash表))。相关参考文档：http://redisdoc.com/index.html
+redis是一种支持分布式的nosql数据库,他的数据是保存在内存中，
+同时redis可以定时把内存数据同步到磁盘，即可以将数据持久化，
+并且他比memcached支持更多的数据结构(string,list列表[队列和栈],set[集合],sorted set[有序集合],hash(hash表))。
+相关参考文档：http://redisdoc.com/index.html
 
 ##redis使用场景：
 登录会话存储：存储在redis中，与memcached相比，数据不会丢失。
