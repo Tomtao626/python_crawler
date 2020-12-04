@@ -7,3 +7,4 @@
 .idea/rSettings.xml
 .idea/vcs.xml
 crawler_py3env
+12306_spider/chromedriver
