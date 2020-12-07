@@ -10,6 +10,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from city_code import city
+
 
 
 class Qiangpiao(object):
@@ -44,7 +46,7 @@ class Qiangpiao(object):
         self.driver.get(self.search_url)
         # 等待出发地是否输入正确
         WebDriverWait(self.driver, 1000).until(
-            EC.text_to_be_present_in_element_value((By.ID, "fromStationText"), self.from_sattion)
+            EC.text_to_be_present_in_element_value((By.ID, "fromStation"), self.from_sattion)
         )
         # 等待目的地是否输入正确
         WebDriverWait(self.driver, 1000).until(
