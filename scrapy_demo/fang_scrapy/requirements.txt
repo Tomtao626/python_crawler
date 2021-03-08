@@ -9,7 +9,7 @@ attrs==19.1.0
 Automat==0.7.0
 beautifulsoup4==4.8.2
 billiard==3.6.0.0
-bleach==2.1.3
+bleach==3.3.0
 bs4==0.0.1
 celery==4.3.0
 certifi==2017.11.5
