@@ -12,9 +12,9 @@ import requests
 
 """
 parsel支持三大功能
-.css()
-.xpath()
-.re()
+    .css()
+    .xpath()
+    .re()
 """
 
 base_url = "https://news.baidu.com"
