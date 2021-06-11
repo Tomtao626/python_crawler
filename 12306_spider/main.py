@@ -23,7 +23,7 @@ class Qiangpiao(object):
         # win
         # self.driver = webdriver.Chrome(executable_path="d:\chromedriver\chromedriver.exe")
         # mac
-        self.driver = webdriver.Chrome(executable_path="/Users/tom/Desktop/workspace/personal/python_crawler/12306_spider/chromedriver")
+        self.driver = webdriver.Chrome(executable_path="/Users/tao626/Documents/workspaces/selenium_driver_path/mac/chromedriver")
 
     def _login(self):
         self.driver.get(self.login_url)

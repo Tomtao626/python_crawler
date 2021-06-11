@@ -18,7 +18,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 # driver_path = r"d:\chromedriver\chromedriver.exe"
-driver_path = r"/Users/tom/Desktop/workspace/personal/chromedriver"
+driver_path = r"/Users/tao626/Documents/workspaces/selenium_driver_path/mac/chromedriver"
 browser = webdriver.Chrome(driver_path)
 browser.get('https://www.taobao.com/')
 wait = WebDriverWait(browser, 8)
