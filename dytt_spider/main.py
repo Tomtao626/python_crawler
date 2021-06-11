@@ -10,11 +10,12 @@ from lxml import etree
 import requests
 
 BASE_DOMAIN = 'https://dytt8.net'
-url = 'https://dytt8.net/html/gndy/dyzz/list_23_1.html'
+req_url = 'https://dytt8.net/html/gndy/dyzz/list_23_1.html'
 HEADERS = {
     'Referer': 'https://dytt8.net/html/gndy/dyzz/list_23_2.html',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36'
 }
+
 
 # response.text
 # response.content
@@ -22,16 +23,17 @@ HEADERS = {
 # 在电影天堂网页中，requests库将其编码猜错，故出现乱码
 
 def get_detail_urls(url):
-    response = requests.get(url, headers=HEADERS)
+    response = requests.get(req_url, headers=HEADERS)
     text = response.text
     html = etree.HTML(text)
     detail_urls = html.xpath("//table[@class='tbspan']//a/@href")
-    detail_urls = map(lambda url:BASE_DOMAIN+url, detail_urls)
+    detail_urls = map(lambda req_url: BASE_DOMAIN + req_url, detail_urls)
     return detail_urls
 
-def parse_detail_page(url):
+
+def parse_detail_page(req_url):
     movie = dict()
-    response = requests.get(url,headers=HEADERS)
+    response = requests.get(req_url, headers=HEADERS)
     text = response.content.decode('gbk')
     html = etree.HTML(text)
     title = html.xpath("//div[@class='title_all']//font[@color='#07519a']/text()")[0]
@@ -40,6 +42,7 @@ def parse_detail_page(url):
     imgs = zoom.xpath(".//img/@src")
     cover = imgs[0]
     movie['cover'] = cover
+
     # movie['screenshot'] = screenshot
 
     def parse_info(info, rule):
@@ -83,7 +86,7 @@ def parse_detail_page(url):
         elif info.startswith("◎主　　演"):
             info = parse_info(info, "◎主　　演")
             actors = [info]
-            for x in range(index+1,len(infos)):
+            for x in range(index + 1, len(infos)):
                 actor = infos[x].strip()
                 if actor.startswith('◎'):
                     break
@@ -94,7 +97,7 @@ def parse_detail_page(url):
             movie['tags'] = info
         elif info.startswith("◎简　　介"):
             info = parse_info(info, "◎简　　介")
-            for x in range(index+1,len(infos)):
+            for x in range(index + 1, len(infos)):
                 profile = infos[x].strip()
                 if profile.startswith("◎"):
                     break
@@ -104,12 +107,11 @@ def parse_detail_page(url):
     return movie
 
 
-
 def spider():
     base_url = 'https://dytt8.net/html/gndy/dyzz/list_23_{}.html'
     # 控制总共有7页
     movies = list()
-    for x in range(1,8):
+    for x in range(1, 8):
         url = base_url.format(x)
         detail_urls = get_detail_urls(url)
         # 遍历一页当中所有电影详情url
@@ -117,6 +119,7 @@ def spider():
             movie = parse_detail_page(detail_url)
             movies.append(movie)
         print(movies)
+
 
 if __name__ == "__main__":
     spider()
