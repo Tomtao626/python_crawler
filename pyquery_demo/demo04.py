@@ -17,8 +17,8 @@ a = '''<title>标题</title>
 </body>'''
 
 doc = pq(a)
-doc('ul:nth-of-type(2) li').text() # 选择第二个ul下的所有li
-doc('ul li:nth-of-type(2)').text() # 选择每个ul中第二个li
-doc('ul li:even').text() # :even取偶数  :odd取奇数（这里索引第一个是0）
-doc('ul li:first').text() # :first取第一个 :last取最后一个
-doc('ul li:eq(0)').text() # 还有 lt gt 索引从0开始
+doc('ul:nth-of-type(2) li').text()  # 选择第二个ul下的所有li
+doc('ul li:nth-of-type(2)').text()  # 选择每个ul中第二个li
+doc('ul li:even').text()  # :even取偶数  :odd取奇数（这里索引第一个是0）
+doc('ul li:first').text()  # :first取第一个 :last取最后一个
+doc('ul li:eq(0)').text()  # 还有 lt gt 索引从0开始

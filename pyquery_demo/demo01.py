@@ -17,13 +17,16 @@ html_str = """
 """
 
 doc = pq(html_str)
-doc('title').text() # '标题'
-doc('p').filter('.first').text() # '文字1'
-doc('p[class=first]').text() # 同上，只是这种方法支持除了id和class之外的属性筛选
-doc('p').text() # '文字1 文字2'
-doc('ul').filter('.list1').find('li').text() # '列表1第1项 列表1第2项'
-doc('ul.list1 li').text() # 简化形式
-doc('ul.list1 > li').text() # 节点之间用>连接也可以，但是加>只能查找子元素，空格子孙元素
+print(type(doc), '\n', doc)
+print(doc('title').text())  # '标题'
+print(doc('p.first').text())
+print(doc('p').filter('.first').text())  # '文字1'
+print(doc('p[class=first]').text())  # 同上，只是这种方法支持除了id和class之外的属性筛选
+
+print(doc('p').text())  # '文字1 文字2'
+print(doc('ul').filter('.list1').find('li').text())  # '列表1第1项 列表1第2项'
+print(doc('ul.list1 li').text())  # 简化形式
+print(doc('ul.list1 > li').text())  # 节点之间用>连接也可以，但是加>只能查找子元素，空格子孙元素
 
 """
 pyquery可以像xpath语句一样，只输入一个字符串，里面是节点顺序以及属性筛选等，与xpath使用思路完全相同，只是语法不同而已，学好了xpath使用这个应该会很轻松

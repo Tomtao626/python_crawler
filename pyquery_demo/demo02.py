@@ -13,19 +13,18 @@ a = '''
 提取标签属性值，用.attr()
 提取子孙节点内容用.text()，如果只提取子节点用.html()，可能提取出来的是子节点的整个标签"""
 
-
 doc = pq(a)
 # 提取标签内容
-doc('h').text() # 'head'
-doc('h').html() # '<a href="www.biaoti.com">head</a>'
-doc('body').html() # '\n    <h><a href="www.biaoti.com">head</a></h>\n    <p>段落1</p>\n    <p>段落2</p>\n'
-doc('p').text() # '段落1 段落2'
-doc('p').text().split(' ') # ['段落1', '段落2']
-doc('p:nth-of-type(1)').text() # '段落1'
-doc('body').text() # 'head 段落1 段落2'
+doc('h').text()  # 'head'
+doc('h').html()  # '<a href="www.biaoti.com">head</a>'
+doc('body').html()  # '\n    <h><a href="www.biaoti.com">head</a></h>\n    <p>段落1</p>\n    <p>段落2</p>\n'
+doc('p').text()  # '段落1 段落2'
+doc('p').text().split(' ')  # ['段落1', '段落2']
+doc('p:nth-of-type(1)').text()  # '段落1'
+doc('body').text()  # 'head 段落1 段落2'
 
 # 提取标签属性
-doc('h a').attr('href') # 'www.biaoti.com'
+doc('h a').attr('href')  # 'www.biaoti.com'
 
 # 识别标签
 
@@ -44,5 +43,5 @@ b = '''
 '''
 
 doc = pq(b)
-doc('h1').text() # 'head'
-doc('h1, h2').text() # 表示“或”用逗号 'head 标题2 标题3'
+doc('h1').text()  # 'head'
+doc('h1, h2').text()  # 表示“或”用逗号 'head 标题2 标题3'
