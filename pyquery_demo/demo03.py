@@ -1,17 +1,5 @@
 from pyquery import PyQuery as pq
 
-b = '''
-<body>
-    <h1>head</h1>
-    <h2>标题2</h2>
-    <h2>标题3</h2>
-</body>
-'''
-
-doc = pq(b)
-doc('h1').text()  # 'head'
-doc('h1, h2').text()  # 表示“或”用逗号 'head 标题2 标题3'
-
 # 同时根据标签和属性识别
 
 a = '''
@@ -24,8 +12,11 @@ a = '''
 </body>
 '''
 doc = pq(a)
+print(doc('p#p2').text())  # 段落2
 doc('p#p1').text()  # '段落1'
+print(doc('p.p3[id]').text())  # 段落4
 doc('p.p3[id]').text()  # 含有id属性
+print(doc('p.p3#pp').text())  # 段落4
 doc('p.p3#pp').text()  # 使用多个属性筛选
 doc('p[class=p3][id=pp]').text()
 doc('p[class=p3], p[id=p1]').text()  # 或的关系
