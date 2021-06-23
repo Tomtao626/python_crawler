@@ -10,11 +10,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from city_code import city
 
 
-
-class Qiangpiao(object):
+class GrabVote(object):
     def __init__(self):
         self.login_url = "https://kyfw.12306.cn/otn/resources/login.html"
         self.my_url = "https://kyfw.12306.cn/otn/view/index.html"
@@ -124,5 +122,5 @@ class Qiangpiao(object):
 
 
 if __name__ == '__main__':
-    spider = Qiangpiao()
+    spider = GrabVote()
     spider.run()

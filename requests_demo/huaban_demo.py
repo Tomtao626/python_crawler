@@ -38,7 +38,7 @@ def save_image(url):
         title = md5(image).hexdigest() + '.jpg'
         print(title)
         print('+' * 20 + '保存完成')
-        with open('d:/code/python_crawler/02_requests_demo/girl_pic/' + title, 'wb') as file:  # 图片保存在D盘新建文件夹内，需先新建此文件夹
+        with open('d:/code/python_crawler/requests_demo/girl_pic/' + title, 'wb') as file:  # 图片保存在D盘新建文件夹内，需先新建此文件夹
             file.write(image)
     except IndexError:
         print('保存失败')
