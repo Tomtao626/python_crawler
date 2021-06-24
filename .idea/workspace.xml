@@ -3,67 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db431ef4-39a9-461c-a885-d1f061c48cc0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/.idea/01_urllib_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/.idea/01_urllib_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/.idea/rSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/.idea/rSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/baidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/baidu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/cookie.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/demo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/demo4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/demo5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/demo6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/demo7.py" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/demo7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/eeee.html" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/eeee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/nba_meina.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/nba_meina.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/renren.html" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/renren.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_urllib_demo/urllib.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urllib_demo/urllib.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/baidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/baidu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/demo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/demo4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/fanyi_qq_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/fanyi_qq_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/girl_pic/23cd41105426f04de5bb6b0e2ababf7c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/girl_pic/23cd41105426f04de5bb6b0e2ababf7c.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/girl_pic/3f8ce0bf6abc97c607c1cc32593a55a1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/girl_pic/3f8ce0bf6abc97c607c1cc32593a55a1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/girl_pic/3fa7f3aa5f030c587c0f67d422e38f15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/girl_pic/3fa7f3aa5f030c587c0f67d422e38f15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/girl_pic/5ccad5a78097ec878e665a78e1285181.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/girl_pic/5ccad5a78097ec878e665a78e1285181.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/girl_pic/f561cd9c2b994c5dcda3d66b2f633ad6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/girl_pic/f561cd9c2b994c5dcda3d66b2f633ad6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/huaban_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/huaban_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/mzcww_pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/mzcww_pic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/renren.html" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/renren.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/requests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/requests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_requests_demo/tieba.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests_demo/tieba.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第10期 中共中央国务院关于深化医疗保障制度改革的意见.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第10期 中共中央国务院关于深化医疗保障制度改革的意见.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第10期 中共中央政治局常务委员会召开会议.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第10期 中共中央政治局常务委员会召开会议.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第10期 习近平在北京考察新冠肺炎防控科研攻关工作时强调.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第10期 习近平在北京考察新冠肺炎防控科研攻关工作时强调.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第10期 以辩证思维统筹疫情防控和经济社会发展.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第10期 以辩证思维统筹疫情防控和经济社会发展.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第10期 全面提高依法防控依法治理能力 健全国家公共卫生应急管理体系.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第10期 全面提高依法防控依法治理能力 健全国家公共卫生应急管理体系.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第10期 在经受大考中提升应对重大突发公共卫生事件能力水平.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第10期 在经受大考中提升应对重大突发公共卫生事件能力水平.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第11期 习近平同联合国秘书长古特雷斯通电话.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第11期 习近平同联合国秘书长古特雷斯通电话.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第11期 习近平向奋战在疫情防控第一线和各条战线的广大妇女同胞表示诚挚的慰问.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第11期 习近平向奋战在疫情防控第一线和各条战线的广大妇女同胞表示诚挚的慰问.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第11期 习近平在湖北省考察新冠肺炎疫情防控工作.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第11期 习近平在湖北省考察新冠肺炎疫情防控工作.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第11期 凝心聚力打赢脱贫攻坚战：挑战、路径与未来.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第11期 凝心聚力打赢脱贫攻坚战：挑战、路径与未来.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第11期 在决战决胜脱贫攻坚座谈会上的讲话.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第11期 在决战决胜脱贫攻坚座谈会上的讲话.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第11期 疫情下加快思考建立解决相对贫困的长效机制.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第11期 疫情下加快思考建立解决相对贫困的长效机制.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第11期 统筹打好疫情防控阻击战和脱贫攻坚战.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第11期 统筹打好疫情防控阻击战和脱贫攻坚战.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第9期 中共中央政治局召开会议 研究新冠肺炎疫情防控工作 部署统筹做好疫情防控和经济社会发展工作.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第9期 中共中央政治局召开会议 研究新冠肺炎疫情防控工作 部署统筹做好疫情防控和经济社会发展工作.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第9期 中共中央政治局常务委员会召开会议 分析新冠肺炎疫情形势研究近期防控重点工作.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第9期 中共中央政治局常务委员会召开会议 分析新冠肺炎疫情形势研究近期防控重点工作.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第9期 习近平回信勉励在首钢医院实习的西藏大学医学院学生.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第9期 习近平回信勉励在首钢医院实习的西藏大学医学院学生.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第9期 习近平在统筹推进新冠肺炎疫情防控和经济社会发展工作部署会议上的讲话.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第9期 习近平在统筹推进新冠肺炎疫情防控和经济社会发展工作部署会议上的讲话.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/News/2020年第9期 习近平对全国春季农业生产工作作出重要指示强调 把农业基础打得更牢 把“三农”领域短板补得更实 为打赢疫情防控阻击战 实现全年经济社会发展目标任务提供有力支撑.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/News/2020年第9期 习近平对全国春季农业生产工作作出重要指示强调 把农业基础打得更牢 把“三农”领域短板补得更实 为打赢疫情防控阻击战 实现全年经济社会发展目标任务提供有力支撑.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/dangjian_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/dangjian_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/demo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/lagou.html" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/lagou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/maoyan_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/maoyan_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/tencent.html" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/tencent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_xpath_demo/xpath笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_demo/xpath笔记.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12306_spider/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/12306_spider/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +77,8 @@
       <workItem from="1623721751767" duration="4934000" />
       <workItem from="1623734708505" duration="12223000" />
       <workItem from="1624324986203" duration="3811000" />
+      <workItem from="1624435859034" duration="1594000" />
+      <workItem from="1624497403672" duration="2038000" />
     </task>
     <servers />
   </component>
